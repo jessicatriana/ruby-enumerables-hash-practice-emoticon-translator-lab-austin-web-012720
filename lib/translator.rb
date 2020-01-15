@@ -1,9 +1,9 @@
 # require modules here
 
-hash = {}
+return_hash = {}
 
 def load_library(filepath)
- hash
+ return_hash
 end
 
 def get_japanese_emoticon
