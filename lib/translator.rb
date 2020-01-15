@@ -14,8 +14,8 @@ def load_library(filepath)
   emoticons
 end
 
-def get_japanese_emoticon(path, emoticon)
-  emoticons = load_library(path) #call load_library
+def get_japanese_emoticon(filepath, emoticon)
+  emoticons = load_library(path) 
   result = emoticons["get_emoticon"][emoticon]
   if result
     result
