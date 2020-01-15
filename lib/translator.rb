@@ -1,11 +1,8 @@
 require 'pry'
 require 'yaml'
 
-
-return_hash = {}
-
 def load_library(filepath)
- return_hash
+ files = yaml.load_file(filepath)
 end
 
 def get_japanese_emoticon
